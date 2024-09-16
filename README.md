@@ -11,3 +11,5 @@ Basically, we ran some cleanup against the source data, cleaned temporary header
 After cleaning the detail dashboard, we import the Summary Dashboard in much the same way.
 
 This is required when going to Google because if you simply upload a CSV to Google, each time a new file is uploaded, the ID will change.  This wouldn't be an issue with OneDrive/Sharepoint since those use relative paths instead.
+
+This has been tested against an environment with an internally hosted Skyward server.  On a server hosted with ISCorp, the .csvs would have to be put on an SFTP likely and then you could manipulate them from there.
